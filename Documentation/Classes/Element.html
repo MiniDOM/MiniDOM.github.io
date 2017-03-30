@@ -73,18 +73,10 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Functions.html">Functions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Functions.html#/s:F7MiniDOM5firstuRxS_4NoderFT2inGSaPS0___6ofTypeMx_GSqx_">first(in:ofType:)</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Functions.html#/s:F7MiniDOM4onlyuRxS_4NoderFT5nodesGSaPS0___6ofTypeMx_GSax_">only(nodes:ofType:)</a>
               </li>
             </ul>
           </li>
@@ -309,62 +301,6 @@ protocol may be used to retrieve a dictionary of the attributes for an element.<
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC7MiniDOM7Element12namespaceURIGSqSS_"></a>
-                    <a name="//apple_ref/swift/Property/namespaceURI" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC7MiniDOM7Element12namespaceURIGSqSS_">namespaceURI</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>If namespace processing is turned on, contains the URI for the current
-namespace.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">namespaceURI</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:vC7MiniDOM7Element13qualifiedNameGSqSS_"></a>
-                    <a name="//apple_ref/swift/Property/qualifiedName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC7MiniDOM7Element13qualifiedNameGSqSS_">qualifiedName</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>If namespace processing is turned on, contains the qualified name for the
-current namespace.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">qualifiedName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:vC7MiniDOM7Element10attributesGSqGVs10DictionarySSSS__"></a>
                     <a name="//apple_ref/swift/Property/attributes" class="dashAnchor"></a>
                     <a class="token" href="#/s:vC7MiniDOM7Element10attributesGSqGVs10DictionarySSSS__">attributes</a>
@@ -404,9 +340,9 @@ Keys are the names of attributes, and values are attribute values.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC7MiniDOM7ElementcFT7tagNameSS12namespaceURIGSqSS_13qualifiedNameGSqSS_10attributesGVs10DictionarySSSS__S0_"></a>
-                    <a name="//apple_ref/swift/Method/init(tagName:namespaceURI:qualifiedName:attributes:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC7MiniDOM7ElementcFT7tagNameSS12namespaceURIGSqSS_13qualifiedNameGSqSS_10attributesGVs10DictionarySSSS__S0_">init(tagName:namespaceURI:qualifiedName:attributes:)</a>
+                    <a name="/s:FC7MiniDOM7ElementcFT7tagNameSS10attributesGVs10DictionarySSSS__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(tagName:attributes:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7MiniDOM7ElementcFT7tagNameSS10attributesGVs10DictionarySSSS__S0_">init(tagName:attributes:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -421,7 +357,7 @@ Keys are the names of attributes, and values are attribute values.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">tagName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">namespaceURI</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">qualifiedName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">])</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">tagName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -438,32 +374,6 @@ Keys are the names of attributes, and values are attribute values.</p>
                               <td>
                                 <div>
                                   <p>A string that is the name of an element (in its start tag).</p>
-
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>namespaceURI</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>If namespace processing is turned on, contains the URI for the current namespace.</p>
-
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>qualifiedName</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>If namespace processing is turned on, contains the qualified name for the current namespace.</p>
 
                                 </div>
                               </td>
@@ -525,7 +435,7 @@ visitor object. Finally, it calls <code>endVisit(self)</code> on the visitor.</p
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://minidom.github.io" target="_blank" rel="external">MiniDOM</a>. All rights reserved. (Last updated: 2017-03-25)</p>
+          <p>&copy; 2017 <a class="link" href="https://minidom.github.io" target="_blank" rel="external">MiniDOM</a>. All rights reserved. (Last updated: 2017-03-29)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.5</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
