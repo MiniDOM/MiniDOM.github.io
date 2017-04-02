@@ -15,5 +15,6 @@ jazzy \
     --github_url "https://github.com/MiniDOM/MiniDOM" \
     --root-url "https://minidom.github.io" \
     --module "MiniDOM" \
-    --output "$output_dir"
+    --output "$output_dir" \
+    --theme "fullwidth"
 
